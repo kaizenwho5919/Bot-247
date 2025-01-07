@@ -38,7 +38,7 @@ app.listen(port, () => {
 });
 
 const statusMessages = ["Type Shii", "Created By Kaizenn"];
-const statusTypes = [ 'dnd', 'streaming'];
+const statusTypes = [ 'dnd', 'idle'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
